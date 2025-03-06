@@ -1,1 +1,0 @@
-hauk tuah
