@@ -26,13 +26,9 @@ function toggleMenu() {
 
 // waits for the website to load because IT DOESN'T WORK OTHERWISE RGARGARGRAG
 document.addEventListener('DOMContentLoaded', function () {
-	const isVtilt = document.body.getAttribute('data-soggy-pagetype') == 'vtilt-js';
 	const sog = document.getElementById('soggycat');
 
 	const picker = document.getElementById('picker');
-
-	let colorstealing;
-	if (isVtilt) colorstealing = new ColorThief();
 	
 	if (!picker) return;
 	picker.addEventListener('change', function (event) {
